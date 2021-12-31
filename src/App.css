@@ -1,0 +1,35 @@
+.mapStyles {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  z-index: 3;
+  position: relative;
+}
+.btnMenu {
+  position: absolute;
+  margin-top: 270px;
+  left: 250px;
+  width: 50px;
+  background-color: fuchsia;
+  border: 2px solid red;
+  border-radius: 3px;
+}
+.border-white {
+  margin-top: 100px;
+}
+.modal-regist {
+  padding: 10px;
+  display: block;
+  position: fixed;
+  z-index: 2;
+  left: -250px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgb(238, 238, 238);
+  transition: left 0.2s;
+}
+.activeBtn {
+  left: 0px;
+}
