@@ -33,3 +33,35 @@
 .activeBtn {
   left: 0px;
 }
+.block-list-apart {
+  padding: 10px;
+  display: block;
+  position: absolute;
+  z-index: 5;
+  right: 0px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgb(238, 238, 238);
+  transition: left 0.2s;
+}
+.heightL {
+  height: 200px;
+  font-size: 12px;
+}
+.block-card {
+  padding: 10px;
+  display: block;
+  position: absolute;
+  z-index: 5;
+  right: 0px;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: rgb(238, 238, 238);
+  transition: left 0.2s;
+  display: block;
+}
+.block-card-disactive {
+  display: none;
+}
